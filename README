@@ -1,0 +1,22 @@
+TextLaunch plasmoid
+By Alan D Moore
+
+This plasmoid for KDE 4.3 or later is something like a quicklaunch, but instead of icons you get text buttons.  You can assign any command or string of commands to the button as well as a tool tip.
+
+Why text?
+
+Someone may well ask, "Why text buttons when we have pretty icons?".  Text has a few of advantages:
+ - Text is simple, descriptive, and to the point.  I use a lot of custom-built or in-house apps at work, so I hate having to remember which tiny blob of pixels on my panel launches which program.  So much easier just to have the words right there.   
+ - Text buttons are short and wide; icons are always square in KDE (even if they're not supposed to be!).  Shrink your panel down on a small, wide screen (like a netbook) and you will have a hard time clicking a little square icon.  But a nice wide text button is easy to click.
+ - If you're arsty about your desktop, some icons don't go well with some backgrounds/themes/styles.  Text is like blue jeans or ketchup: it isn't spectacular but it goes with everything! 
+
+KNOWN ISSUES:
+ - When you first create it on the desktop, sizing of the background is a little wonky.  I don't know if I'll ever figure out this bit.  If you want to use this outside the panel, you'll want to resize after adding buttons.
+
+ - Sometimes the text doesn't fit quite right on the buttons after you change the buttons around. This should sort itself out after you open and close (with an "ok") the config dialog once or twice, or login/logout.  Not sure why this is happening.
+
+TODO:
+ - I'd like to make the font/colors/size customizable, but after conferring with plasma-devel there seem to be some limitations of libplasma in the way.  Maybe there's a way around this.  The plasma devs are going to do some work in this area for future versions.
+ - Maybe drag&drop support for .desktop files, we'll see.
+ - Maybe add Dock-like functionality (where a launcher only launches one instance of the program, switching to the open instance if there is one) would be a nice option for launchers.
+ - Other appearance tweaks?

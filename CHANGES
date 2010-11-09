@@ -1,0 +1,22 @@
+TextLaunch Changelog
+ * Version 0.3.2 (Feb 19, 2010)
+   - Fixed a small bug that would cause a crash with fixed-width buttons in KDE 4.4.
+ * Version 0.3.1 (Oct 17, 2009)
+   - Removed margin around the buttons so they take up less vertical space.
+
+ * Version 0.3 (Sep 28, 2009) 
+   - Now uses Plasma Tooltips
+   - Can set background style to default or translucent (only seems to have an effect when used off-panel)
+
+ * Version 0.2.1 (Sep 16, 2009)
+   - Fixed a small bug that caused icons to display instead of text (!)
+
+ * Version 0.2 (Sep 13, 2009)
+   - Selection follows your item when moving buttons in the launcher config.
+   - Launchers can be added without comment (tooltip) text.  
+   - You'll get a warning (and no button will be added) if you don't enter a command or button text for an item.
+   - NEW FEATURE: You can make the layout horizontal (default) or vertical (ideal for sidebar use)
+   - NEW FEATURE: You can set the buttons to a fixed width (good for vertical use)
+
+ * Version 0.1 (Sep 10, 2009)
+   - Initial Release

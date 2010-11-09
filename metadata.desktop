@@ -1,0 +1,19 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TextLaunch
+ServiceTypes=Plasma/Applet
+Comment=A quicklaunch that uses text instead of icons.
+Type=Service
+Icon=fork
+X-Plasma-API=python
+X-Plasma-MainScript=code/main.py
+
+X-KDE-PluginInfo-Author=Alan D Moore
+X-KDE-PluginInfo-Email=me@alandmoore.com
+X-KDE-PluginInfo-Name=textlaunch
+X-KDE-PluginInfo-Version=0.3.2
+X-KDE-PluginInfo-Website=http://www.alandmoore.com
+X-KDE-PluginInfo-Category=Application Launchers
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true
