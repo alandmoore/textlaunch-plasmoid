@@ -1,4 +1,7 @@
 TextLaunch Changelog
+ * Version 0.3.3 by vkos (Sep 5, 2010)
+   - Layout fix in configuration form
+
  * Version 0.3.2 (Feb 19, 2010)
    - Fixed a small bug that would cause a crash with fixed-width buttons in KDE 4.4.
  * Version 0.3.1 (Oct 17, 2009)
